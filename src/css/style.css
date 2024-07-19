@@ -1,15 +1,14 @@
 body {
-  background-color: hsl(233, 47%, 7%);
-  height: 100vh;
-  color: aliceblue;
+  background-color: hsl(233, 47%, 7%);  color: aliceblue;
   font-family: "Inter", sans-serif;
+  min-height: 100vh;
 }
 
 main {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100%;
+  min-height: 100vh;
   padding: 20px;
 }
 
