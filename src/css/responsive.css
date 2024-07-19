@@ -1,27 +1,40 @@
-@media(max-width:375px) {
-  main {
-    justify-items: center;
-    align-items: center;
-  }
-  
+@media (max-width: 375px) {
   .container {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
     flex-direction: column-reverse;
   }
-
-  .container .info{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  .container-foto .foto {
+    background: url(../images/image-header-mobile.jpg) no-repeat center;
+    background-size: cover;
     width: 100%;
-    padding: 0 50px;
+    height: 100%;
+  }
+
+  .container .info {
+    width: 100%;
+    margin-left: 0;
+    text-align: center;
+    padding: 30px;
+  }
+
+  .container .info .title {
+    margin-right: 0;
   }
 
   .container .info .text {
     margin-right: 0;
   }
+
+  .container .info .info-data{
+    display: block;
+  }
+
+  .container .info .info-data .data {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
 }
-
-
-
