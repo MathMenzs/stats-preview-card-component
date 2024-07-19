@@ -16,7 +16,6 @@ main {
 .container {
   max-width: 1120px;
   display: flex;
-
   background-color: hsl(244, 38%, 16%);
 }
 
